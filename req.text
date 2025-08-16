@@ -1,0 +1,7 @@
+streamlit
+llama-cpp-python
+sentence-transformers
+faiss-cpu
+chromadb
+docx2txt
+PyPDF2

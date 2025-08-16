@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  background: url('backgroundImage.jpg') no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000; /* Fallback background */
+}
+
+.container {
+  background: rgba(0, 0, 0, 0.6); /* reduced opacity to reveal background */
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.button-grid button {
+  padding: 15px 30px;
+  font-size: 16px;
+  background: linear-gradient(90deg, #ff6ec4, #7873f5);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin: 10px 0;
+  width: 300px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.button-grid button:hover {
+  transform: scale(1.05);
+  background: linear-gradient(90deg, #a18cd1, #fbc2eb);
+}
